@@ -2,7 +2,8 @@ import Botao from "../components/Botao";
 import Formulario from "../components/Formulario";
 import Layout from "../components/Layout";
 import Tabela from "../components/Tabela";
-// import '../styles/globals.css'
+import '../styles/globals.css'
+import { initializeApp } from 'firebase/app';
 
 import useClientes from "../hooks/useClientes";
 
